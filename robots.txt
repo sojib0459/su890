@@ -1,4 +1,4 @@
-Sitemap: https://www.tawbait.com/sitemap.xml
+Sitemap: https://join.filmzie.com/sitemap.xml
 User-agent: *
 Allow: /
 Disallow: 
