@@ -247,6 +247,56 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 <footer>
     <p>&copy; 2024 Sports News Platform. All Rights Reserved.</p>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Ad at Bottom</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            text-align: center;
+            z-index: 9999;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        main {
+            padding: 20px;
+            margin-top: 120px; /* Adjust for sticky header */
+            margin-bottom: 60px; /* Adjust for sticky ad */
+            text-align: center;
+        }
+        .sticky-ad {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+            text-align: center;
+        }
+        .sticky-ad img {
+            max-width: auto;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticky-ad">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMGpf4aYI_HvXI35BSlsbFTV_XOiEtAFrwgT3MvfyC5dXf23-oW6MMvLAcZwf8-CRv_u2TCE78sfQNanfoapI0qXZO4iNNMiOGO1uqDcLdKjPh9k_NcTjKjUf17r7eWQcDLdTX5iRuBm1YKbYpQDW6ZHcLFOzTWbUbzCqAYXyeynYz9nffSOhvGMOtLMp2/s16000/Screenshot_52.png" alt="Ad">
+    </div>
+</body>
+</html>
 </footer>
 
 </body>
